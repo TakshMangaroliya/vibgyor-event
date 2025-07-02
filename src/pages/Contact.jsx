@@ -94,9 +94,9 @@ const handleSubmit = (e) => {
 
           <p className="text-xl text-gray-300 max-w-4xl mx-auto leading-relaxed" data-aos="fade-up" data-aos-delay="300">
             Ready to create something{' '}
-            <span className="text-purple-400 font-semibold">extraordinary</span>? Let's discuss your vision and bring
+            <span className="text-[#B89433] font-semibold">extraordinary</span>? Let's discuss your vision and bring
             <br />
-            it to life with <span className="text-teal-400 font-semibold">royal elegance</span>.
+            it to life with <span className="text-[#B89433] font-semibold">royal elegance</span>.
           </p>
 
           <div className="flex justify-center items-center gap-12 mt-12" data-aos="fade-up" data-aos-delay="400">
@@ -105,7 +105,7 @@ const handleSubmit = (e) => {
               <span className="text-gray-300">24/7 Support</span>
             </div>
             <div className="flex items-center gap-2">
-              <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
+              <div className="w-2 h-2 bg-[#B89433] rounded-full animate-pulse"></div>
               <span className="text-gray-300">Royal Treatment</span>
             </div>
             <div className="flex items-center gap-2">
@@ -124,7 +124,7 @@ const handleSubmit = (e) => {
               data-aos="fade-right"
             >
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-r from-[#8A2BE2] to-[#0056B3] rounded-xl flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-[#C87C38] to-[#a07e7e] rounded-xl flex items-center justify-center">
                   <Send className="w-5 h-5 text-white" />
                 </div>
                 <h2 className="text-4xl font-serif text-white">Send us a Message</h2>
@@ -195,7 +195,7 @@ const handleSubmit = (e) => {
 
   <button
     type="submit"
-    className="w-full bg-gradient-to-r from-purple-600 to-blue-600 text-white font-semibold py-4 px-8 rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 flex items-center justify-center gap-2"
+    className="w-full bg-gradient-to-r from-[#C87C38] to-[#a07e7e] text-white font-semibold py-4 px-8 rounded-lg hover:from-purple-700 hover:to-blue-700 transition-all duration-300 flex items-center justify-center gap-2"
   >
     <span>Send Royal Message</span>
     <Sparkles className="w-5 h-5" />
@@ -207,7 +207,7 @@ const handleSubmit = (e) => {
             {/* Contact Info */}
             <div className="space-y-6" data-aos="fade-left">
               <div className="flex items-center gap-3 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-r from-[#0056B3] to-[#008080] rounded-xl flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-[#C87C38] to-[#a07e7e] rounded-xl flex items-center justify-center">
                   <Crown className="w-5 h-5 text-white" />
                 </div>
                 <h2 className="text-4xl font-serif text-white">Royal Contact</h2>
@@ -216,12 +216,12 @@ const handleSubmit = (e) => {
               {/* Phone */}
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50" data-aos="fade-up">
                 <div className="flex items-start gap-4">
-                  <div className="bg-purple-600 p-3 rounded-lg">
+                  <div className="bg-gradient-to-r from-[#C87C38] to-[#a07e7e] p-3 rounded-lg">
                     <Phone className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h3 className="text-white font-semibold text-lg mb-2">Royal Hotline</h3>
-                    <p className="text-purple-400 font-medium">+91 98765 43210</p>
+                    <p className="text-[#B89433] font-medium">+91 98765 43210</p>
                     <p className="text-gray-300">+91 87654 32109</p>
                     <p className="text-gray-400 text-sm mt-1">Available 24/7 for royal emergencies</p>
                   </div>
@@ -231,12 +231,12 @@ const handleSubmit = (e) => {
               {/* Email */}
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50" data-aos="fade-up" data-aos-delay="100">
                 <div className="flex items-start gap-4">
-                  <div className="bg-teal-600 p-3 rounded-lg">
+                  <div className="bg-gradient-to-r from-[#C87C38] to-[#a07e7e] p-3 rounded-lg">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div>
                     <h3 className="text-white font-semibold text-lg mb-2">Royal Mail</h3>
-                    <p className="text-teal-400 font-medium">hello@vibgyorevents.com</p>
+                    <p className="text-[#B89433] font-medium">hello@vibgyorevents.com</p>
                     <p className="text-gray-300">info@vibgyorevents.com</p>
                     <p className="text-gray-400 text-sm mt-1">We respond within royal hours</p>
                   </div>
@@ -246,7 +246,7 @@ const handleSubmit = (e) => {
               {/* Address */}
               <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-6 border border-gray-700/50" data-aos="fade-up" data-aos-delay="200">
                 <div className="flex items-start gap-4">
-                  <div className="bg-blue-600 p-3 rounded-lg">
+                  <div className="bg-gradient-to-r from-[#C87C38] to-[#a07e7e] p-3 rounded-lg">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div>
@@ -260,9 +260,9 @@ const handleSubmit = (e) => {
               </div>
 
               {/* Interactive Map */}
-              <div className="bg-gradient-to-br from-purple-600/20 to-blue-600/20 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50 text-center" data-aos="zoom-in" data-aos-delay="300">
+              <div className="bg-gray-800/50 backdrop-blur-sm rounded-2xl p-8 border border-gray-700/50 text-center" data-aos="zoom-in" data-aos-delay="300">
                 <div className="bg-purple-600/30 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <MapPin className="w-8 h-8 text-purple-400" />
+                  <MapPin className="w-8 h-8 text-[#B89433]" />
                 </div>
                 <h3 className="text-white font-semibold text-xl mb-2">Interactive Royal Map</h3>
                 <p className="text-gray-300">Coming Soon with Royal Directions</p>
@@ -270,27 +270,6 @@ const handleSubmit = (e) => {
             </div>
           </div>
 
-          {/* Social Media */}
-          <div className="text-center mt-16" data-aos="fade-up">
-            <div className="flex items-center justify-center gap-2 mb-6">
-              <Crown className="w-5 h-5 text-purple-400" />
-              <span className="text-gray-300 font-medium">Follow Our Royal Journey</span>
-            </div>
-            <div className="flex justify-center gap-4">
-              <a href="#" className="bg-blue-600 p-3 rounded-lg hover:bg-blue-700 transition-colors">
-                <Facebook className="w-6 h-6 text-white" />
-              </a>
-              <a href="#" className="bg-pink-600 p-3 rounded-lg hover:bg-pink-700 transition-colors">
-                <Instagram className="w-6 h-6 text-white" />
-              </a>
-              <a href="#" className="bg-sky-500 p-3 rounded-lg hover:bg-sky-600 transition-colors">
-                <Twitter className="w-6 h-6 text-white" />
-              </a>
-              <a href="#" className="bg-blue-700 p-3 rounded-lg hover:bg-blue-800 transition-colors">
-                <Linkedin className="w-6 h-6 text-white" />
-              </a>
-            </div>
-          </div>
         </div>
       </div>
     </div>
